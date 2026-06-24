@@ -1,0 +1,566 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hyderabad Development Authority</title>
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="icon" type="image/x-icon" href="img/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Barlow:wght@400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <!-- Auto Popup -->
+    <div class="popup" id="popup" aria-hidden="true" role="dialog">
+      <div class="popup-content">
+        <button class="close" onclick="closePopup()" aria-label="Close popup">
+          &times;
+        </button>
+        <img src="img/HDA Popup.png" alt="Popup Image" />
+      </div>
+    </div>
+
+    <!-- TOP BAR -->
+
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <span class="top-bar-item">
+          <i class="ti ti-map-pin"></i>
+
+          Hydeabad Sindh
+        </span>
+
+        <span class="top-bar-item">
+          <i class="ti ti-phone"></i>
+
+          (022) 9200709
+        </span>
+
+        <span class="top-bar-item">
+          <i class="ti ti-clock"></i>
+          Mon–Fri: 08:00–17:00
+        </span>
+      </div>
+
+      <div class="top-bar-right">
+        <a
+          class="social-btn"
+          href="https://www.facebook.com/profile.php?id=61589524666705"
+        >
+          <i class="ti ti-brand-facebook"></i>
+        </a>
+
+        <a class="social-btn" href="#">
+          <i class="ti ti-brand-instagram"></i>
+        </a>
+
+        <a class="social-btn" href="#">
+          <i class="ti ti-brand-youtube"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="gold-rule"></div>
+
+    <!-- NAVBAR -->
+
+    <nav class="main-nav">
+      <div class="nav-inner">
+        <!-- LOGO -->
+
+        <a href="#" class="logo-section">
+          <img src="img/logo.png" class="logo-img" alt="logo" />
+
+          <div class="logo-text-wrap">
+            <span class="logo-title">Hyderabad</span>
+            <span class="logo-sub">Development Authority</span>
+          </div>
+        </a>
+
+        <!-- MOBILE BUTTON -->
+
+        <label for="menu-checkbox" class="menu-toggle">
+          <i class="ti ti-menu-2"></i>
+        </label>
+
+        <input type="checkbox" id="menu-checkbox" />
+
+        <!-- MENU -->
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="inder.html" class="nav-link">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link has-dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >About Us</a
+            >
+            <div class="dropdown">
+              <a href="about-hyderabad.html" class="dropdown-item"
+                >About Hyderabad</a
+              >
+              <a href="about-hda.html" class="dropdown-item">About HDA</a>
+              <a href="vision-mission.html" class="dropdown-item"
+                >Vision &amp; Mission</a
+              >
+              <a href="governing-body.html" class="dropdown-item"
+                >Governing Body</a
+              >
+              <a href="director-generals.html" class="dropdown-item"
+                >Director Generals</a
+              >
+              <a href="organogram.html" class="dropdown-item">Organogram</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link has-dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Directorates</a
+            >
+            <div class="dropdown">
+              <a href="chief-engineer.html" class="dropdown-item"
+                >Chief Engineer</a
+              >
+              <a href="planning-development.html" class="dropdown-item"
+                >Planning &amp; Development</a
+              >
+              <a href="land-management.html" class="dropdown-item"
+                >Land Management</a
+              >
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link has-dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Laws &amp; Rules</a
+            >
+            <div class="dropdown">
+              <a href="hda-act-1976.html" class="dropdown-item">HDA Act 1976</a>
+              <a href="conduct-business-1978.html" class="dropdown-item"
+                >Conduct of Business Regulation 1978</a
+              >
+              <a href="delegation-powers-1987.html" class="dropdown-item"
+                >Delegation of Powers 1987</a
+              >
+              <a href="hda-service-reg-1988.html" class="dropdown-item"
+                >HDA Service Regulations 1988</a
+              >
+              <a href="control-area.html" class="dropdown-item">Control Area</a>
+              <a href="land-use-control-scheme.html" class="dropdown-item"
+                >Land Use Control Scheme</a
+              >
+              <a href="method-of-appointment-2023.html" class="dropdown-item"
+                >Method of Appointment 2023</a
+              >
+              <a href="delegation-powers-2026.html" class="dropdown-item"
+                >Delegation of Powers 2026</a
+              >
+              <a href="other-policies.html" class="dropdown-item"
+                >Other Policies</a
+              >
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link has-dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Master Plans</a
+            >
+            <div class="dropdown">
+              <a href="current-master-plan.html" class="dropdown-item"
+                >Current Master Plan</a
+              >
+              <a href="previous-master-plans.html" class="dropdown-item"
+                >Previous Master Plans</a
+              >
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link has-dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Schemes</a
+            >
+            <div class="dropdown">
+              <a href="public-sector.html" class="dropdown-item"
+                >Public Sector</a
+              >
+              <a href="private-schemes.html" class="dropdown-item"
+                >Private Schemes</a
+              >
+              <a href="illegal-schemes.html" class="dropdown-item"
+                >Illegal Schemes</a
+              >
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link has-dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Gallery</a
+            >
+            <div class="dropdown">
+              <a href="daily-activities.html" class="dropdown-item"
+                >Daily Activities / Site Visits / Events</a
+              >
+              <a href="workshops.html" class="dropdown-item">Workshops</a>
+              <a href="training-sessions.html" class="dropdown-item"
+                >Training Sessions</a
+              >
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link has-dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Others</a
+            >
+            <div class="dropdown">
+              <a href="faqs.html" class="dropdown-item">FAQs</a>
+              <a href="rti.html" class="dropdown-item"
+                >Right To Information (RTI)</a
+              >
+              <a href="plot-transfer.html" class="dropdown-item"
+                >Plot Transfer</a
+              >
+              <a href="allotment-order.html" class="dropdown-item"
+                >Allotment Order</a
+              >
+              <a href="physical-possession.html" class="dropdown-item"
+                >Physical Possession</a
+              >
+              <a href="construction-noc.html" class="dropdown-item"
+                >Construction NOC</a
+              >
+              <a href="lease-sublease.html" class="dropdown-item"
+                >Lease / Sub-Lease</a
+              >
+              <a href="land-use-conversion.html" class="dropdown-item"
+                >Land Use Conversion</a
+              >
+              <a href="plot-sub-division.html" class="dropdown-item"
+                >Plot Sub-Division</a
+              >
+              <a href="plot-amalgamation.html" class="dropdown-item"
+                >Plot Amalgamation</a
+              >
+              <a href="layout-plan.html" class="dropdown-item">Layout Plan</a>
+              <a href="housing-scheme-approval.html" class="dropdown-item"
+                >Housing Scheme Approval</a
+              >
+              <a href="fee-challan-schedule.html" class="dropdown-item"
+                >Fee/Challan Schedule</a
+              >
+            </div>
+          </li>
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link has-dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Housing project not approved by HDA</a
+            >
+            <div class="dropdown">
+              <a href="rti.html" class="dropdown-item">Amin Mohammadi</a>
+              <a href="plot-transfer.html" class="dropdown-item"
+                >Messrs.Hashim & Razia Sons Private Limited</a
+              >
+              <a href="allotment-order.html" class="dropdown-item"
+                >Taj Muhammad Dahri and Hashimuddin</a
+              >
+              <a href="physical-possession.html" class="dropdown-item"
+                >Muhammad Usman Memon (Commercial Block I and II)</a
+              >
+              <a href="construction-noc.html" class="dropdown-item"
+                >Muhammad Arif Memon (Triangle Tower)</a
+              >
+              <a href="lease-sublease.html" class="dropdown-item"
+                >Mr. Ashraf Jatoi (Ziauddin Hospital)</a
+              >
+              <a href="land-use-conversion.html" class="dropdown-item"
+                >Irshad Ali Khawaja</a
+              >
+              <a href="plot-sub-division.html" class="dropdown-item"
+                >Bilal Sadiq (Kabab jees)</a
+              >
+              <a href="plot-amalgamation.html" class="dropdown-item"
+                >Umair Ahmed Lone (Capital Luxury)</a
+              >
+
+              <a href="housing-scheme-approval.html" class="dropdown-item"
+                >Saeed Ahmed Chauhan</a
+              >
+              <a href="fee-challan-schedule.html" class="dropdown-item">
+                Farooq Memon (Madina CNG)</a
+              >
+              <a href="fee-challan-schedule.html" class="dropdown-item">
+                Zeeshan Memon and Noman</a
+              >
+              <a href="fee-challan-schedule.html" class="dropdown-item">
+                Sohail and Hameedullah</a
+              >
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <main class="page-main" id="main-content">
+      <section class="page-hero">
+        <div class="hero-slider">
+          <div class="hero-slide active" style="background-image: url('img/a DSC02262.JPG.jpeg');">
+            <div class="hero-slide-overlay"></div>
+            <div class="hero-slide-content">
+              <!-- <p class="hda-subtitle">About the City</p> -->
+              <h1 style="color: #fff;">About Hyderabad</h1>
+              <p>
+                Hyderabad is a historic city that blends cultural heritage,
+                modern growth, and sustainable planning. The Hyderabad
+                Development Authority works to ensure safe, balanced
+                development for residents and businesses.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hda-about">
+        <div class="hda-about-content">
+          <span class="hda-subtitle">City Overview</span>
+          <h2>Building a modern Hyderabad with heritage and harmony</h2>
+          <p>
+            Hyderabad is one of Sindh’s key urban centers, known for its rich
+            history, vibrant markets, and evolving infrastructure. The city is a
+            hub for education, commerce, and administrative services, growing in
+            a way that respects both tradition and future needs.
+          </p>
+          <p>
+            The Hyderabad Development Authority plans and regulates land use,
+            infrastructure, and public services to support sustainable growth,
+            economic opportunity, and an improved quality of life for all
+            citizens.
+          </p>
+        </div>
+      </section>
+
+      <section class="about-grid">
+        <article class="about-card">
+          <h3>City Planning</h3>
+          <p>
+            Hyderabad’s urban planning focuses on balanced residential,
+            commercial, and recreational spaces, with an emphasis on mobility,
+            safety, and access to essential services.
+          </p>
+        </article>
+        <article class="about-card">
+          <h3>Heritage & Culture</h3>
+          <p>
+            The city preserves its historic landmarks and cultural identity while
+            supporting new development that reflects Hyderabad’s spirit.
+          </p>
+        </article>
+        <article class="about-card">
+          <h3>Infrastructure</h3>
+          <p>
+            Investment in roads, utilities, public transport, and community
+            amenities helps Hyderabad grow responsibly and serve its people
+            better.
+          </p>
+        </article>
+        <article class="about-card">
+          <h3>Future Growth</h3>
+          <p>
+            Hyderabad aims to expand sustainably with smart land management,
+            environmental stewardship, and strong governance for long-term
+            prosperity.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const slides = document.querySelectorAll('.hero-slide');
+        let currentIndex = 0;
+        if (slides.length > 1) {
+          setInterval(() => {
+            slides[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % slides.length;
+            slides[currentIndex].classList.add('active');
+          }, 5500);
+        }
+      });
+    </script>
+
+    <div class="footer-wrap" role="contentinfo">
+      <h2
+        class="sr-only"
+        style="
+          position: absolute;
+          width: 1px;
+          height: 1px;
+          overflow: hidden;
+          clip: rect(0, 0, 0, 0);
+        "
+      >
+        CDA website footer with navigation, contact information, and social
+        links
+      </h2>
+
+      <div class="footer-top">
+        <div>
+          <div class="footer-logo-mark">
+            <span><img src="img/logo.png" alt="" /></span>
+          </div>
+          <p
+            style="
+              font-size: 15px;
+              font-weight: 500;
+              color: #e8f5ee;
+              margin: 0 0 0.35rem;
+            "
+          >
+            Hyderabad Development Authority
+          </p>
+          <p class="footer-tagline">
+            Hyderabad Development Authority (HDA) is committed to planned urban
+            development, modern infrastructure, and sustainable growth, striving
+            to build a better and more organized Hyderabad for present and
+            future generations.
+          </p>
+          <div class="social-row">
+            <div class="social-btn" aria-label="Twitter / X">
+              <i class="ti ti-brand-x" aria-hidden="true"></i>
+            </div>
+            <div class="social-btn" aria-label="Facebook">
+              <i class="ti ti-brand-facebook" aria-hidden="true"></i>
+            </div>
+            <div class="social-btn" aria-label="YouTube">
+              <i class="ti ti-brand-youtube" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p class="col-head">General</p>
+          <ul class="col-links">
+            <li>
+              <a href="#">About CDA</a>
+            </li>
+            <li>
+              <a href="#">E-Services</a>
+            </li>
+            <li>
+              <a href="#">Media center</a>
+            </li>
+            <li>
+              <a href="#">Contact us</a>
+            </li>
+            <li>
+              <a href="#">FAQs</a>
+            </li>
+            <li>
+              <a href="#">Careers</a>
+            </li>
+            <li>
+              <a href="#">Privacy policy</a>
+            </li>
+            <li>
+              <a href="#">Terms &amp; conditions</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="col-head">Related links</p>
+          <ul class="col-links">
+            <li>
+              <a href="#">Ministry of Interior</a>
+            </li>
+            <li>
+              <a href="#">SIFC website</a>
+            </li>
+            <li>
+              <a href="#">MCI</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="col-head">Head office</p>
+          <div class="info-row">
+            <div class="info-item">
+              <i class="ti ti-map-pin" aria-hidden="true"></i
+              ><span>Hydeabad Sindh</span>
+            </div>
+            <div class="info-item">
+              <i class="ti ti-mail" aria-hidden="true"></i
+              ><span>contactus@hyd.gov.pk</span>
+            </div>
+            <div class="info-item">
+              <i class="ti ti-phone" aria-hidden="true"></i
+              ><span>051-xxxxxxx</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p class="col-head">Opening hours</p>
+          <div class="info-row">
+            <div class="info-item">
+              <i class="ti ti-clock" aria-hidden="true"></i
+              ><span>Monday – Friday</span>
+            </div>
+            <div class="hours-badge">
+              <i class="ti ti-sun" aria-hidden="true"></i>8:30 am – 4:30 pm
+            </div>
+            <div style="margin-top: 0.75rem"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copy-text">
+          © 2024 Hyderabad Development Authority Design by ABMdigital
+        </p>
+      </div>
+    </div>
+   
+
+    
+   
+  </body>
+</html>
